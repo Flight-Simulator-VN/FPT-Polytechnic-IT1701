@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    background-image: url(2021-PTCD-01.png);
+    width: 200px;
+    height: 100px;
+    padding: 2px;
+    border: 1px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    margin-top:-20px
+}
+    
+
+/* menu  */
+body{
+    font-family: sans-serif;
+    color: #333;
+}
+
+#menu ul {
+    list-style-type: none;
+    background-color:black;
+    text-align:center;
+    background-position: center;
+}
+#menu ul li{
+    color: black;
+    display: inline-table;
+    position: relative;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+#menu ul li a:hover{
+    background-color: white;
+    color: black  ;
+}
+#menu ul li > .submenu{
+    display: none;
+
+}
+#menu ul li:hover .submenu{
+    display: block;
+    position: absolute;
+}
+
+/* Kết thúc menu  */
+
+.boxchinh{
+    background-color:   white;
+    width: 90%;
+    height: 600px;
+    padding: 0px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.vientren{
+    background-color: rgb(194, 194, 194);
+    width: 100%;
+    height: 70px;
+    color: black;
+    font-size: 30px;
+    line-height: 70px;
+    
+}
+.box1{
+    background-color: white;
+    width: 30%;
+    height: 480px;
+    padding: 0px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 2.5%;
+}
+.box2{
+    background-color: white;
+    width: 30%;
+    height: 480px;
+    padding: 0px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 2.5%;
+}
+.box3{
+    background-color: white;
+    width: 30%;
+    height: 480px;
+    padding: 0px;
+    border: 1px solid black;
+    box-sizing: border-box;margin-left: 2.5%;
+    
+}
+.box{
+    display: flex;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+.box1:hover{
+    background-color: rgba(145, 145, 145, 0.448);
+}
+.box2:hover{
+    background-color: rgba(145, 145, 145, 0.448);
+}
+.box3:hover{
+    background-color: rgba(145, 145, 145, 0.448);
+}
+
+.boxend1{
+    background-color: #333;
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+    border: 3px solid black;
+    margin-top: 10px;
+    display: flex;
+}
+.line{
+    width: 0.1%;
+    height: 180px;
+    padding: 0px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left:60%;
+    margin-top: 8px;
+}
+.anh1{
+    background-image: url(https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/297904852_617373376396797_9027450382358793789_n.jpg?stp=dst-jpg_p720x720&_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=OcsWbtUsGSYAX9C-w5i&_nc_ht=scontent.fdad1-4.fna&oh=00_AT_NZygtvVytnulp249IF-P8qyBHMu3oJIhK0gwGUJryqg&oe=63281268);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    padding: 2px;
+    border: 2px;
+    box-sizing: border-box;
+    background-size: 500px;
+    background-position: center;
+}
+.anh2{
+    background-image: url(https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/307173798_583287666828076_6968714428246648230_n.jpg?stp=dst-jpg_p843x403&_nc_cat=111&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=oGCJZh-KO0cAX9vWjMp&_nc_ht=scontent.fdad1-3.fna&oh=00_AT_DMqGtYgVOatEIRBCrz4EyQ1SEtPZetyZrRSf66Hf0bA&oe=63295577);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    background-size: 400px;
+    /* background-position: center; */
+    margin-left: 1%;
+    margin-top: 0%;
+}
